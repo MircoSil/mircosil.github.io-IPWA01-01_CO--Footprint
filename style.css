@@ -1,0 +1,157 @@
+html{
+    height: 100%;
+}
+body { 
+    font-family: system-ui;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav li, form {
+    display: inline-flex;
+    margin-right: 50px;
+}
+header {
+    text-align: right;
+}
+#Image {
+    position: relative;
+    background: url(Hintergrund.png) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    width: 2860px;
+    overflow: hidden;
+}
+main {
+    display: flex;
+    width: 100%;
+}
+main nav {
+    width: 40%;
+}
+main nav li {
+    display: block;
+}
+/* Navigationsleiste anfang*/
+main nav ul {
+    display: block;
+    list-style-type: none;
+    min-width: 200px;
+    margin: 10px;
+    padding: 0;
+    width: 25%;
+    background-color: rgb(128, 126, 126);    
+    height: 100%;
+    overflow: auto;
+}
+main nav ul li a {
+    display: block;
+    color: black;
+    padding: 10px 0 10px 5px;
+    text-decoration: none;
+}
+main nav ul li a:hover {
+    background-color: rgb(104, 103, 103);
+    color: white;
+}
+#submenu {
+    display: block;
+    color: black;
+    padding: 10px 0 10px 5px;
+    text-decoration: none;
+}
+/* Navigationsleiste ende*/
+div #div1 {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+input {
+    height: 1em;
+    padding: 1em;
+    border: 1px solid #000000;
+    border-radius: 1em;
+}
+#h1Seite {
+    font-size: 2em;
+    text-align: center;
+    width: 75%;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    margin-left: 70px;
+}
+#Text {
+    display: inline-block;
+    text-align: left;
+    width: 75%;
+    margin-left: 70px;
+    font-size: 25px;
+}
+#h1Unternehm {
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 2px solid black;
+}
+#h1Land {
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 2px solid black;
+}
+/* Tabelle anfang */
+table {
+    width: 100%;
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 0.3em solid black;
+    border-radius: 0.4em;
+    top: 10px;
+    bottom: 10px;
+}
+thead td, thead th {
+    border-width: 3px;
+    font-weight: 900;
+    padding: 1.5em;
+}
+td {
+    text-align: center;
+    border-bottom: 3px solid #000000;
+    padding: 1.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+th {
+    text-align: center;
+    border-bottom: 3px solid black;
+    padding: 1.5em;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.land {
+    text-align: left;
+}
+.unternehm {
+    text-align: left;
+}
+/* Tabelle ende */
+footer {
+    text-align: right;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: rgb(3, 21, 82);
+    margin: 0em;
+    padding: 2px;
+    font-size: larger;
+}
+a:hover {
+    color: rgb(0, 0, 0);
+}

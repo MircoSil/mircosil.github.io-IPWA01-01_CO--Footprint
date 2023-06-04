@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>CO²-Emmisionsdaten der Länder und Unternehmen</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="Logo.png">
+    <script type="text/javascript" src="JavaScript.js"></script>
+</head>
+
+<body>
+    <div id="Image">
+    <header>
+        <div id="container">
+        <nav>
+            <ul>
+                <li>
+                    <form>
+                        <input type = "text" name = "suche" placeholder="suche">
+                    </form>
+                </li>
+                <li><a href="https://www.instagram.com/" >Instagram</a></li>
+                <li><a href="https://www.facebook.com/" > Facebook</a></li>
+                <li><a href="https://twitter.com/" > Twitter</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    </div>
+
+    <main>
+        <nav>
+            <ul>
+                <li><a href="Klimawandel.html">Startseite</a></li>
+                <li><a onmouseover="aufklappenUnternehm()" onmouseout="zuklappenUnternehm()" href="">CO²-Emmissionen</a></li>
+            <div onmouseover="aufklappenUnternehm()" onmouseout="zuklappenUnternehm()" id="Unternehmmenu">
+                <li><a href="Länder.html">Länder</a></li>
+                <li><a href="Unternehmen.html">Unternehmen</a></li>
+            </div>
+            </ul>
+        </nav>
+        <div id="div1">
+        <section>
+            <div id="h1Unternehm">
+            <h1>Weltweiter CO²-Ausstoß der größten Unternehmen</h1>
+            </div>
+            <input type="text" id="inputU" onkeyup="funktionenU()" placeholder="Suche nach Unternehmen" title="Type in a name">
+            <table id="TabelleUnternehm">
+                <thead>
+                    <tr>
+                            <th>Unternehmen</th>
+                            <th>Emmissionen in Mrd. Tonnen (t)</th>
+                            <th>Weltweiter Anteil in Prozent (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><div class="unternehm">Saudi Aramco</div></td>
+                        <td>57,63</td>
+                        <td>5,6</td>
+                    </tr>
+                    <tr>
+                        <td><div class="unternehm">Chevron</div></td>
+                        <td>44,54</td>
+                        <td>3,8</td>
+                    </tr>
+                    <tr>
+                        <td><div class="unternehm">Gazprom</div></td>
+                        <td>42,44</td>
+                        <td>3,7</td>
+                    </tr>
+                    <tr>
+                        <td><div class="unternehm">ExxonMobil</div></td>
+                        <td>39,38</td>
+                        <td>3,4</td>
+                    </tr>
+                    <tr>
+                        <td><div class="unternehm">National Iranian Oil Co.</div></td>
+                        <td>34,98</td>
+                        <td>2,9</td>
+                    </tr>
+                    <tr>
+                        <td><div class="unternehm">BP</div></td>
+                        <td>33,76</td>
+                        <td>2,7</td>
+                    </tr>
+                    <tr>
+                        <td><div class="unternehm">Royal Dutch Shell</div></td>
+                        <td>27,83</td>
+                        <td>2,3</td>
+                    </tr>
+                    <tr>
+                        <td><div class="unternehm">Coal India</div></td>
+                        <td>24,55</td>
+                        <td>1,9</td>
+                    </tr>
+                    <tr>
+                        <td><div class="unternehm">Pemex</div></td>
+                        <td>21,79</td>
+                        <td>1,6</td>
+                    </tr>
+                    <tr>
+                        <td><div class="unternehm">Petroleos de Venezuela</div></td>
+                        <td>16,24</td>
+                        <td>1,2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        </div>
+    </main>
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="contact.html"> Kontakt</a></li>
+            <li><a href="privacy.html"> Datenschutz</a></li>
+            <li><a href="imprint.html"> Impressum</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+
+</html>

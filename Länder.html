@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>CO²-Emmisionsdaten der Länder und Unternehmen</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="Logo.png">
+    <script type="text/javascript" src="JavaScript.js"></script>
+</head>
+
+<body>
+    <div id="Image">
+    <header>
+        <div id="container">
+        <nav>
+            <ul>
+                <li>
+                    <form>
+                        <input type = "text" name = "suche" placeholder="suche">
+                    </form>
+                </li>
+                <li><a href="https://www.instagram.com/" >Instagram</a></li>
+                <li><a href="https://www.facebook.com/" > Facebook</a></li>
+                <li><a href="https://twitter.com/" > Twitter</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    </div>
+
+    <main>
+        <nav>
+            <ul>
+                <li><a href="Klimawandel.html">Startseite</a></li>
+                <li><a onmouseover="aufklappenLand()" onmouseout="zuklappenLand()" href="">CO²-Emmissionen</a></li>
+            <div onmouseover="aufklappenLand()" onmouseout="zuklappenLand()" id="Landmenu">
+                <li><a href="Länder.html">Länder</a></li>
+                <li><a href="Unternehmen.html">Unternehmen</a></li>
+            </div>
+            </ul>
+        </nav>
+        <div id="div1">
+        <section>
+            <div id="h1Land">
+            <h1>Weltweiter CO²-Ausstoß der Länder</h1>
+            </div>
+            <input type="text" id="inputL" onkeyup="funktionenL()" placeholder="Suche nach Länder" title="Type in a name">
+            <table id="TabelleLand">
+                <thead>
+                    <tr>
+                            <th>Länder</th>
+                            <th>Emmission in Mrd. Tonnen (t)</th>
+                            <th>Weltweiter Anteil in Prozent (%)</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><div class="land">China</div></td>
+                        <td>9,8</td>
+                        <td>13,4</td>
+                    </tr>
+                    <tr>
+                        <td><div class="land">USA</div></td>
+                        <td>4,4</td>
+                        <td>9,8</td>
+                    </tr>
+                    <tr>
+                        <td><div class="land">Indien</div></td>
+                        <td>3,5</td>
+                        <td>8,4</td>
+                    </tr>
+                    <tr>
+                        <td><div class="land">Russland</div></td>
+                        <td>2,6</td>
+                        <td>7,7</td>
+                    </tr>
+                    <tr>
+                        <td><div class="land">Japan</div></td>
+                        <td>2,1</td>
+                        <td>7,2</td>
+                    </tr>
+                    <tr>
+                        <td><div class="land">Iran</div></td>
+                        <td>1,4</td>
+                        <td>5,9</td>
+                    </tr>
+                    <tr>
+                        <td><div class="land">Deutschland</div></td>
+                        <td>0,98</td>
+                        <td>5,3</td>
+                    </tr>
+                    <tr>
+                        <td><div class="land">Südkorea</div></td>
+                        <td>0,74</td>
+                        <td>4,6</td>
+                    </tr>
+                    <tr>
+                        <td><div class="land">Saudi-Arabien</div></td>
+                        <td>0,66</td>
+                        <td>4,1</td>
+                    </tr>
+                    <tr>
+                        <td><div class="land">Indonesien</div></td>
+                        <td>0,49</td>
+                        <td>3,4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        </div>
+    </main>
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="contact.html"> Kontakt</a></li>
+            <li><a href="privacy.html"> Datenschutz</a></li>
+            <li><a href="imprint.html"> Impressum</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+
+</html>
